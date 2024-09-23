@@ -13,5 +13,10 @@ if __name__ == "__main__":
     consoles = ["PS4", "XOne", "PC", "WiiU"]
     df=df[df['platform'].isin(consoles)]
 
-    # sns.countplot(x='platform', hue='genre', data=df, palette="Paired")
-    # plt.show()
+    # sns.set_theme()
+    # ax = sns.countplot(x='platform', hue='genre', data=df)
+    #
+    # sns.move_legend(ax, "upper left", bbox_to_anchor=(1, 1))
+    # plt.tight_layout()
+    #
+    # plt.savefig(fname="./graph.png")

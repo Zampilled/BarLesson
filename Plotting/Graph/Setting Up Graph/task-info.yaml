@@ -7,5 +7,5 @@ files:
     propagatable: false
   - name: dataset.csv
     visible: true
-  - name: out.csv
+  - name: graph.png
     visible: true

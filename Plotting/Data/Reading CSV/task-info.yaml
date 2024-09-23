@@ -1,4 +1,4 @@
-type: output
+type: theory
 files:
   - name: main.py
     visible: true
